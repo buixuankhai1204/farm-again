@@ -2,7 +2,9 @@ using UnityEngine;
 
 public static class Settings
 {
-
+   public static float fadeInSeconds = 0.25f;
+   public static float fadeOutSeconds = 0.35f;
+   public static float targetAlpha = 0.45f;
    public const float runningSpeed = 5.333f;
    public const float walkingSpeed = 2.666f;
 
