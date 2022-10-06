@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1803847679534657579, guid: 6faf2e109046c9e41bd80ce8d23c93f6, type: 3}
+      propertyPath: itemCode
+      value: 10002
+      objectReference: {fileID: 0}
     - target: {fileID: 5187607756953258408, guid: 6faf2e109046c9e41bd80ce8d23c93f6, type: 3}
       propertyPath: m_Name
       value: Corn
@@ -119,21 +123,3 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6faf2e109046c9e41bd80ce8d23c93f6, type: 3}
---- !u!1 &8016786967424399227 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5187607757861489857, guid: 6faf2e109046c9e41bd80ce8d23c93f6, type: 3}
-  m_PrefabInstance: {fileID: 2936149598469290938}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8265003786852792001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8016786967424399227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1fc8438fb12e5e41b07f902048c1988, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemCode: 10002

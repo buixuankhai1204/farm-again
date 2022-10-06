@@ -6451,7 +6451,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5883514403525622082, guid: 33aea8794d99a374280834dd8b86f262, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 33aea8794d99a374280834dd8b86f262, type: 3}
 --- !u!4 &314622593 stripped
@@ -60921,7 +60922,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5883514403525622082, guid: 33aea8794d99a374280834dd8b86f262, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 33aea8794d99a374280834dd8b86f262, type: 3}
 --- !u!4 &740422156 stripped
@@ -60990,7 +60992,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8680864192712132147, guid: 568297ce3a7310c42beb200e95ee0b14, type: 3}
+      propertyPath: itemCode
+      value: 10007
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3193030844874245112, guid: 568297ce3a7310c42beb200e95ee0b14, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 568297ce3a7310c42beb200e95ee0b14, type: 3}
 --- !u!4 &999974273 stripped
@@ -61863,7 +61870,7 @@ GameObject:
   - component: {fileID: 1142963417}
   m_Layer: 0
   m_Name: Commodify
-  m_TagString: Untagged
+  m_TagString: ParentItemTransform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61876,7 +61883,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142963416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.39509, y: -5.438054, z: -2.4839885}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -67015,7 +67022,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: pumpkin
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d84df9abce6d22d468f7a81578af9392, type: 3}
 --- !u!4 &1951412644 stripped
@@ -67084,7 +67092,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3193030844874245112, guid: 568297ce3a7310c42beb200e95ee0b14, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 568297ce3a7310c42beb200e95ee0b14, type: 3}
 --- !u!4 &2057182775 stripped

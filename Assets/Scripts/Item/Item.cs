@@ -11,7 +11,7 @@ public class Item : MonoBehaviour
 
     private void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     private void Start()
@@ -26,11 +26,9 @@ public class Item : MonoBehaviour
     {
         if (itemCode != 0)
         {
-            Debug.Log(itemCode);
-            this.itemCode = itemCode;
             itemDetails itemDetails;
 
-            itemDetails = InventoryManager.Instance.GetItemDetail(this.itemCode);
+            itemDetails = InventoryManager.Instance.GetItemDetail(itemCode);
             spriteRenderer.sprite = itemDetails.itemSprite;
             if (itemDetails.itemType == ItemType.ReapableScenary)
             {

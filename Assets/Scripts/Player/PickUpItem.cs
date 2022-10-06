@@ -7,7 +7,7 @@ public class PickUpItem : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Item item = other.GetComponent<Item>();
+        Item item = other.GetComponentInParent<Item>();
         if (item != null)
         {
             itemDetails itemDetails = InventoryManager.Instance.GetItemDetail(item.itemCode);
@@ -15,7 +15,12 @@ public class PickUpItem : MonoBehaviour
             {
                 Debug.Log(itemDetails.itemDescription);
             }
+
+            if (itemDetails.canBePickup)
+            {
+                InventoryManager.Instance.AddItem(InventoryLocation.player, item);
+                other.gameObject.SetActive(false);
+            }
         }
-        
     }
 }
